@@ -12,7 +12,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final _textController = TextEditingController();
   final AudioPlayer audioPlayer = AudioPlayer();
-  double _volume = 0.5;
+  double _volume = 0.2;
 
   @override
   Widget build(BuildContext context) {
@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
               Slider(
                 value: _volume,
                 min: 0.0,
-                max: 0.5,
+                max: 0.2,
                 onChanged: (value) {
                   setState(() {
                     _volume = value;
@@ -127,7 +127,7 @@ class _HomePageState extends State<HomePage> {
               IconButton(
                 icon: Icon(Icons.play_arrow),
                 onPressed: () async {
-                  await audioPlayer.play('assets/sounds/4KINGS.mp3');
+                  await audioPlayer.play('assets/sounds/Cute.mp3');
                 },
               ),
               IconButton(
