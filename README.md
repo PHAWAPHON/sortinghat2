@@ -1,4 +1,4 @@
-# sortinghat2
+# 4Kings Sorting Hat
 
 A new Flutter project.
 
