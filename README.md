@@ -27,8 +27,10 @@
   ```bash
   git clone https://github.com/PHAWAPHON/sortinghat2.git
    ```
-  <br>
-- เปิด Folder ใน Visual Studio Code แล้วค้นหาfileที่ชื่อว่า main.dart กด Start Debugging
+<br>
+
+-  เปิด Folder ใน Visual Studio Code แล้วค้นหา file ที่ชื่อว่า main.dart กด Start Debugging
+
 <br>
 <details>
   <summary><strong>แต่ถ้าคุณไม่อยากเสียเวลาไปลงProject เราก็มีทางเลือกในการ Run App ที่ deploy ไปยัง Vercel</strong></summary>
