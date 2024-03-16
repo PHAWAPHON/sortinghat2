@@ -1,6 +1,6 @@
-# 4Kings Sorting Hat
 
-### ยินดีตอนรับสู่ 4Kings Sorting Hat ###
+
+# ยินดีตอนรับสู่ 4Kings Sorting Hat #
 
 <details>
   <summary><strong>ขั้นตอนการติดตั้ง</strong></summary>
