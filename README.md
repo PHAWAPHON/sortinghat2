@@ -16,13 +16,13 @@
   `เปิด Command Promt ใช้คำสั่ง cd เลือก file path ที่คุณเก็บอยากเก็บ`
   
    ```bash
-    cd path\to\your\files
+   cd path\to\your\files
    ```
    
    `git clone`
   
   ```bash
-    git clone https://github.com/PHAWAPHON/sortinghat2.git
+  git clone https://github.com/PHAWAPHON/sortinghat2.git
    ```
   
 - เปิด Folder ใน Visual Studio Code แล้วค้นหาfileที่ชื่อว่า main.dart กด Start Debugging
