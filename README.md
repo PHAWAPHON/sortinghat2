@@ -1,4 +1,4 @@
 # 4Kings Sorting Hat
 
 
-https://sortinghat-alpha.vercel.app/
+https://sortinghat2.vercel.app/
