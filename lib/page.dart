@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:audioplayers/audioplayers.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -11,8 +11,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final _textController = TextEditingController();
-  final AudioPlayer audioPlayer = AudioPlayer();
-  double _volume = 0.5;
+
 
   @override
   Widget build(BuildContext context) {
@@ -109,48 +108,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ],
         ),
-        bottomNavigationBar: BottomAppBar(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Slider(
-                value: _volume,
-                min: 0.0,
-                max: 0.5,
-                onChanged: (value) {
-                  setState(() {
-                    _volume = value;
-                    audioPlayer.setVolume(_volume);
-                  });
-                },
-              ),
-              IconButton(
-                icon: Icon(Icons.play_arrow),
-                onPressed: () async {
-                  await audioPlayer.play('assets/sounds/music.mp3');
-                },
-              ),
-              IconButton(
-                icon: Icon(Icons.pause),
-                onPressed: () {
-                  audioPlayer.pause();
-                },
-              ),
-              IconButton(
-                icon: Icon(Icons.stop),
-                onPressed: () {
-                  audioPlayer.stop();
-                },
-              ),
-              IconButton(
-                icon: Icon(Icons.refresh),
-                onPressed: () {
-                  audioPlayer.resume();
-                },
-              ),
-            ],
-          ),
-        ),
+       
       ),
     );
   }
